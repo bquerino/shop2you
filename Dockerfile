@@ -1,5 +1,4 @@
 FROM adoptopenjdk:11-jre-hotspot
-RUN apk --no-cache add curl
 VOLUME /tmp
 ARG REGION_ARG=sa-east-1
 ARG ACCESS_ARG
