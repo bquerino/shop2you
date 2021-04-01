@@ -56,12 +56,3 @@ tasks.withType<KotlinCompile> {
 tasks.withType<Test> {
 	useJUnitPlatform()
 }
-
-tasks.jar {
-	manifest {
-		attributes["Main-Class"] = "Shop2youApplication"
-	}
-	configurations["compileClasspath"].forEach { file: File ->
-		from(zipTree(file.absoluteFile))
-	}
-}
