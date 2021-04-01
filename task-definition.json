@@ -29,7 +29,7 @@
       "memoryReservation": 500,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "177423973267.dkr.ecr.sa-east-1.amazonaws.com/myecrrepository",
+      "image": "177423973267.dkr.ecr.sa-east-1.amazonaws.com/myecrrepository:8500e2cc434ec5b2dde8f10d6c82fc93b137be76",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,12 +50,12 @@
     }
   ],
   "placementConstraints": [],
-  "memory": "1024",
+  "memory": "512",
   "taskRoleArn": null,
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:177423973267:task-definition/MyTaskDefinition:1",
+  "taskDefinitionArn": "arn:aws:ecs:sa-east-1:177423973267:task-definition/MyTaskDefinition:5",
   "family": "MyTaskDefinition",
   "requiresAttributes": [
     {
@@ -76,8 +76,8 @@
     "EC2"
   ],
   "networkMode": "bridge",
-  "cpu": "1024",
-  "revision": 1,
+  "cpu": "512",
+  "revision": 5,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
