@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jre-hotspot
+FROM adoptopenjdk/openjdk11:alpine
 VOLUME /tmp
 ARG REGION_ARG=sa-east-1
 ARG ACCESS_ARG
